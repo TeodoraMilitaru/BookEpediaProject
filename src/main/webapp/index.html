@@ -1,0 +1,33 @@
+<!DOCTYPE>
+<html>
+<head>
+    <title>BookEpedia</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+<body>
+    <div id="container">
+        <h2>BookEpedia</h2>
+        <div id="content">
+            <form id="getBooks" action="BookEpedia" method="get">
+                <input type="submit" value="Get Books" />
+            </form>
+            <form id="addBook" action="BookEpedia" method="post">
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author"/>
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title"/>
+                <label for="isbn">ISBN:</label>
+                <input type="text" name="isbn" id="isbn"/>
+                <label for="year">Publishing year:</label>
+                <input type="text" name="publishingyear" id="year"/>
+                <input type="submit" value="Submit"/>
+            </form>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+</body>
+</html>
